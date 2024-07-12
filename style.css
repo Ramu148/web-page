@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    width: 100%;
+}
+.col1, .col2{
+    width: 50%;
+    float: left;
+}
+.container .col1 img{
+    width: 50%;
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+}
+.col1 h1,p{
+    color: black;
+    text-align: center;
+}
+.col1 h1{
+    margin-top: 80px;
+}
+.col1 p{
+    margin-top: 2px;
+    color: black;
+}
+.col2 button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 25px;
+    width: 50px;
+    border: none;
+    border-radius: 2px;
+}
+.col2{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.col2 h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.col2 p{
+    color: gray;
+}
+.col2 label{
+    color:black
+}
+.col2 input{
+    border: 1px solid rgb(43, 143, 251);
+    background-color: white;
+    border-radius: 5px;
+}
+.col2 img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
